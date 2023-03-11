@@ -1,0 +1,317 @@
+
+/* form errors msg style start */
+.error{
+    color: #FF0000;
+    font-size: 15px;
+}
+/* form errors msg style end */
+
+/* Profile view page start */
+
+.stats {
+    background: #f2f5f8 !important;
+    color: #000 !important;
+}
+.number1 {
+    font-weight: 500 !important;
+}
+
+/* Profile view page end */
+
+/* password show eye position start */
+
+form.changepassword .form-group{
+    position:relative;
+}
+
+span.showoldpwd, span.shownewpwd, span.showcnfmpwd {
+    position: absolute;
+    right: 20px;
+    transform: translate(0, -50%);
+    top: 20px;
+    cursor: pointer;
+}
+/* password show eye position end */
+
+/* Rating star style start */
+.cm-star{
+    color: #f39c13;
+}
+
+/* Rating star style end */
+
+/* add form image position Set start */
+
+.pro_thumbnail img {
+    margin: 10px 5px;
+}
+
+/* add form image position Set end */
+
+/* idebat icon color changes css start here */
+.sidebar-dark .nav-item .nav-link i{
+    color:#fff !important;
+}
+
+.bg-gradient-primary {
+    background-color: #b84e2b !important;
+    background-image: linear-gradient(180deg,#b84e2b 10%,#ab3f1a #8c2d0e 100%) !important;
+    background-size: cover;
+}
+.dtopdwn_bg_chng .bg-white.collapse-inner.rounded {
+    background: #972500 !important;
+    color: #fff !important;
+}
+img.admin_logo{
+    width:60px !important;
+    background-color: #fff;
+    border-radius: 50% !important;
+}
+/* idebat icon color changes css start here */
+
+.sidebar-brand-text.mx-3 {
+    white-space: nowrap;
+}
+table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+    border-bottom-width: 0;
+    vertical-align: middle !important;
+}
+.form-group h5 {
+    font-size: 16px !important;
+    font-weight: 600;
+    color: #212529;
+}
+
+p.ademail {
+    font-weight: 800;
+}
+
+.admin-main-header {
+    color: #000 !important;
+    font-weight: 700 !important;
+}
+
+.dtopdwn_bg_chng span {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+.dproheading {
+    color: #b74c29;
+    font-weight: 600;
+}
+span.admdpt {
+    padding: 8px 0px;
+    display: block;
+}
+
+.admnimage {
+    border-radius: 50% !important;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    display: inline-table;
+    z-index: 9;
+    padding: 0px;
+    border: 8px solid #ffffff7a;
+    margin-bottom: 12px;
+}
+.profile-details-style::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    right: 0;
+    background:linear-gradient(3deg, rgb(255 255 255) 0%, rgb(187 107 79 / 39%) 35%, rgb(179 72 36) 100%);
+    top: 0;
+    height: 31%;
+    z-index: 1;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+span.small {
+    font-size: 18px;
+    font-weight: 700;
+    color: #b74d2a !important;
+}
+.profile-details-style {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    box-shadow:1px 2px 8px #00000036;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.profile-bg-img{
+    background-size: cover !important;
+    background-position: center !important;
+}
+.profile-details-style a {
+    margin: 0 auto !important;
+}
+a.btn.btn-info, a.btn-danger, a.btn.btn-success{
+    padding: 4px;
+    width: 35px;
+    height: 35px;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+i.fa.fa-facebook, i.fa.fa-twitter, i.fa.fa-youtube-play, i.fa.fa-pinterest{
+    font-size: 16px;
+    padding: 5px;
+}
+i.fa.fa-facebook{
+    color:#4267B2;
+}
+i.fa.fa-twitter{
+    color:#1DA1F2;
+}
+i.fa.fa-youtube-play{
+    color:#FF0000;
+}
+i.fa.fa-pinterest{
+    color:#E60023;
+}
+a:hover{
+    text-decoration: none;
+}
+th.sorting {
+    white-space: nowrap;
+}
+td.action-producttype, .action-product, .testimonial-action {
+    white-space: nowrap;
+}
+td.action-producttype {
+    width: 10%;
+}
+option.dropdown-item, .chocolate_type_drp {
+    background: white;
+    color: #585858;
+}
+.product-type-add{
+    float: right;
+}
+.edit-additional-long-description, .add-additional-long-description{
+    margin-bottom: 12px;
+}
+
+span.result {
+    margin-top: 13px;
+    display: block;
+}
+
+span.rating-testimonial {
+    white-space: nowrap !important;
+}
+
+/* coupon style start */
+.coupon-addfrm {
+    padding: 20px 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+.coupon-height h3.box-title{
+    color: #000;
+    font-weight: 700 !important;
+
+}
+table tr td.coupon-size {
+    font-size:13px;
+}
+/* coupon style end */
+
+
+/* Invoice email template start */
+.invoice_template_rgt {
+    margin-bottom: 53px;
+  }
+  .invoice_template {
+    color: #000;
+}
+
+  .invoice_template p {
+    margin-bottom:12px;
+}
+.invoice_template h4{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.product_table {
+    margin-top: 40px;
+}
+.product_table tr th:nth-child(2) {
+    width: 30%;
+}
+.product_table tr th:nth-child(1) {
+    width: 30%;
+}
+.invoice_dwn_template_left h5 {
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #b64b28;
+    text-decoration: underline;
+}
+.invoice_payment_left tr th:nth-child(2), .invoice_payment_left tr td:nth-child(2){
+    text-align: right;
+}
+.invoice_payment_left tr {
+    height: 36px;
+}
+.invoice_payment_left p strong {
+    margin-left: 10px;
+}
+tr.table_pr_ftr {
+    border-top: 1px solid #ad411c78;
+}
+.invoice_payment_left {
+    margin-top: 30px;
+}
+.product_table tr th:nth-child(5), .product_table tr td:nth-child(5){
+    text-align: right;
+}
+.product_table tr th:nth-child(3) {
+    width: 16%;
+}
+.invoice_template_rgt h2 {
+    font-weight: 700;
+}
+.product_table tr {
+    color: #000;
+}
+.invoice_template img.header_logo {
+    width: 90px;
+}
+
+
+/* Invoice email template end */
+
+
+/* Invoice print style start */
+.print-hover-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #8c2d0e;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    z-index: 99;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+/* Invoice print style end */
